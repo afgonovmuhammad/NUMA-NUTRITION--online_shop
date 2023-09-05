@@ -1,0 +1,462 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Oswald&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+}
+.App {
+    background-image: url(./img/gray-abstract-wireframe-technology-background\ 2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 0px 0px 60px;
+}
+.main {
+    margin: 0px auto;
+}
+.contener {
+    max-width: 2400px;
+    margin: 0px auto;
+}
+/* header{
+    position: fixed;
+    top: 0;
+    width:100% ;
+    background-color: #ffffff66;
+} */
+/* .navbar {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px;
+    margin: auto;
+} */
+
+li {
+    text-decoration: none;
+}
+.navbar a {
+    text-decoration: none;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    padding-bottom: 3px;
+}
+.link:hover {
+    color: #26d984;
+    font-weight: 600;
+    border-bottom: 3px solid #26d984;
+}
+.link2{
+  color: #26d984;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  padding-bottom: 3px;
+}
+
+/* .active {
+    color: #26d984;
+    font-weight: 600;
+    border-bottom: 2px solid #26d984;
+} */
+.nav_3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #26d984;
+    border-radius: 87px;
+    color: white;
+    padding: 10px 20px;
+    gap: 10px;
+}
+
+.Products h1 {
+    /* padding-top: 160px; */
+    color: #26d984;
+    text-align: center;
+    font-family: Montserrat;
+    /* font-size: 50px; */
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    /* width: 50%; */
+    margin: auto;
+}
+
+/* .IMG {
+    margin-top: -80px;
+    width: 100%;
+} */
+.О_нас,
+.Certificates {
+    width: 80%;
+    margin: auto;
+    padding: 90px 0px;
+}
+/* .О_нас_2 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+} */
+
+/* .left_2 {
+    width: 60%;
+} */
+.left_2 h1,
+.Productss h1,
+.Certificates h1 {
+    color: #000;
+    font-family: Montserrat;
+    /* font-size: 56px; */
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.left_2 p {
+    color: #000;
+    font-family: Montserrat;
+    /* font-size: 24px; */
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 15px 0px;
+    /* width: 85%;   */
+}
+
+/* .img_Icon {
+    padding: 50px 0px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, 70%);
+    width: 40%;
+} */
+
+.resurs {
+    padding: 50px 0px;
+}
+
+.Productss {
+  padding-top: 20px;
+    background-image: url('./img/Rectangle10.png');
+    background-size: 100% 100%;
+    /* background-color: #9c9797; */
+}
+.Bor:hover {
+    box-shadow: 0px 0px 20px #918c8c56;
+    transition: all 0.5s ease-in-out;
+}
+.Product1 {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.Productss h1 {
+    padding: 80px 0px;
+    color: #000;
+    font-family: Montserrat;
+    /* font-size: 56px; */
+    font-style: normal;
+    font-weight: 600;
+    /* line-height: normal; */
+}
+.Prod {
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+}
+.Product_peg {
+    border-radius: 40px;
+    background: #fff;
+    padding: 20px 0px;
+}
+.Product_peg2 h2 {
+    color: #26d984;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.Contacts {
+    width: 80%;
+    margin: 0 auto;
+}
+.Contact {
+    border-radius: 40px;
+    border: 1px solid #c0c0c0;
+    background: #f1fff8;
+}
+
+.footer_end li a {
+    color: #fff;
+    font-family: Montserrat;
+    /* font-size: 22px; */
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.btn-10 {
+    cursor: pointer;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    /* font-family: Marvel; */
+    font-size: 16px;
+    font-weight: 700;
+    width: 100%;
+
+    position: relative;
+    border: solid #26d984 2px;
+    color: #26d984;
+    z-index: 1;
+    transition: all 0.7s ease-in-out;
+    border-radius: 69px;
+    background: #26d984;
+}
+
+.btn-10:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0%;
+    background-color: #fff;
+    transition: 0.5s ease-in-out;
+    z-index: -1;
+    border-radius: 69px;
+}
+
+.btn-10:hover:before {
+    width: 0%;
+    right: 50%;
+}
+
+.btn-10:hover {
+    color: #f1f1f1;
+    border-color: #26d984;
+    border-radius: 69px;
+    transform: scale(0.97);
+}
+
+.btn-10:active {
+    color: #333;
+    border-color: #00a7fc;
+    background-color: #00a7fc;
+}
+
+.btn-10:active:before {
+    background-color: #00a7fc;
+}
+
+.btn-10:focus {
+    outline: none;
+}
+
+.btn-12 {
+    cursor: pointer;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: Marvel;
+    /* font-size: 18px; */
+    padding: 0px 20px;
+    /* width: 18%; */
+    /* height: 45px; */
+    position: relative;
+    border: solid #26d984 2px;
+    color: #000;
+    z-index: 1;
+    transition: all 0.5s ease-in-out;
+    border-radius: 25px;
+    background: #26d984;
+}
+
+.btn-12:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    background-color: #ffffff;
+    border-radius: 25px;
+    transition: 0.7s ease-in-out;
+    z-index: -1;
+}
+
+.btn-12:hover:before {
+    height: 0%;
+    top: 50%;
+}
+
+.btn-12:hover {
+    color: #f1f1f1;
+    border-color: #26d984;
+    transform: scale(0.97);
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 190px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.528); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    border-radius: 20px;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 34px;
+    font-weight: bold;
+    padding-right: 20px;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.wrapper {
+    max-width: 100%;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+.gallery .image {
+    padding: 7px;
+    /* width: calc(100% / 3); */
+}
+.gallery .image span {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+.gallery .image img {
+    width: 100%;
+    vertical-align: middle;
+    transition: all 0.3s ease;
+}
+.gallery .image:hover img {
+    transform: scale(0.97);
+}
+.preview-box {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.9);
+    background: #fff;
+    max-width: 700px;
+    width: 100%;
+    z-index: 5;
+    opacity: 0;
+    pointer-events: none;
+    border-radius: 3px;
+    padding: 0 5px 5px 5px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+.preview-box.show {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translate(-50%, -50%) scale(1);
+    transition: all 0.3s ease;
+}
+.preview-box .details {
+    display: flex;
+    align-items: center;
+    padding: 12px 15px 12px 10px;
+    justify-content: space-between;
+}
+.preview-box .details .title {
+    display: flex;
+    font-size: 18px;
+    font-weight: 400;
+}
+.details .title p {
+    margin: 0 5px;
+}
+.details .title p.current-img {
+    font-weight: 500;
+}
+.details .icon {
+    color: #007bff;
+    font-size: 20px;
+    cursor: pointer;
+}
+.preview-box .image-box {
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+.image-box .slide {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+    height: 50px;
+    width: 60px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 3px;
+}
+.slide.prev {
+    left: 0px;
+}
+.slide.next {
+    right: 0px;
+}
+.image-box img {
+    width: 100%;
+    border-radius: 0 0 3px 3px;
+}
+.shadow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    display: none;
+    background: rgba(0, 0, 0, 0.45);
+}
+@media (max-width: 1000px) {
+    .gallery .image {
+        width: calc(100% / 2);
+    }
+}
+@media (max-width: 600px) {
+    .gallery .image {
+        width: 100%;
+        padding: 4px;
+    }
+}
+
+
+.mod_bor{
+  border-right: 5px solid #26D984;
+}
